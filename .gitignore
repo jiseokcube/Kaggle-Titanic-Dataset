@@ -4,6 +4,9 @@
 # Pycharm
 .idea
 
+# Pycache
+__pycache__
+
 # Compiled source #
 ###################
 *.com
