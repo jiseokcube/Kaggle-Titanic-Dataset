@@ -7,7 +7,8 @@
 # Pycache
 __pycache__
 
-# Submission files
+# Output files
+results
 submission.csv
 
 # Compiled source #
