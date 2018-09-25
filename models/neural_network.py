@@ -71,4 +71,4 @@ print()
 # Output testing labels
 test_pred = clf.predict(test_X)
 output = np.stack((test_ids, test_pred), axis=1)
-np.savetxt("submission.csv", output, fmt="%i", delimiter=',', header="PassengerId, Survived", comments='')
+np.savetxt("submission.csv", output, fmt="%i", delimiter=',', header="PassengerId,Survived", comments='')
